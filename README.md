@@ -6,17 +6,17 @@
 ---
 
 ## 📌 Version Info | Versiyon Bilgisi 
-Current Version: **1.2.0**
+Current Version: **2.0.0**
 
-Geçerli Sürüm: **1.2.0**
+Geçerli Sürüm: **2.0.0**
 
 ---
 
 ## 🌐 Languages / Diller
 | Language/Dil | Filename/Dosya Adı | Description/Açıklama |
 |-----------|-----|-------|
-| English | [eng_second_calculate.java](eng_second_calculate.java) | Convert seconds to minute |
-| Türkçe | [tr_second_calculate.java](tr_second_calculate.java) | Saniyeyi dakikaya çevir |
+| English | [eng_SecondCalculator.java](eng_SecondCalculator.java) | Convert seconds to minute |
+| Türkçe | [tr_SecondCalculator.java](tr_SecondCalculator.java) | Saniyeyi dakikaya çevir |
 
 ---
 
@@ -34,7 +34,7 @@ A simple second calculator application written in Java. It takes input in second
 
 ### Installation
 ```bash
-git clone https://github.com/BurakHINGE/eng_second_calculator.git
+git clone https://github.com/BurakHINGE/SecondCalculator.git
 ```
 
 ---
@@ -53,21 +53,19 @@ Java ile yazılmış basit bir saniye hesaplama uygulamasıdır. Kullanıcıdan 
 
 ### Kurulum  
 ```bash
-git clone https://github.com/BurakHINGE/tr_second_calculator.
+git clone https://github.com/BurakHINGE/SecondCalculator.git
 ```
 
 ---
 
 ## 📌 Version History / Sürüm Geçmişi
 
-### v1.2.0 (2025-12-08)
-- Calculating hour has been added to code. / Koda saat hesaplama eklendi.
-
-### v1.1.0 (2025-10-20)
-- English has been added to code. / Koda İngilizce dili eklendi.
-
-### v1.0.0 (2025-10-03)  
-- The code that converts seconds to minutes has been created. / Saniyeyi dakikaya çeviren kod oluşturuldu.
+| Version | Date       | Description |
+|--------:|------------|-------------|
+| v2.0.0  | 2026-03-14 | Improve performance and add language-specific formatting | 
+| v1.2.0  | 2025-12-08 | Calculating hour has been added to code  |
+| v1.1.0  | 2025-10-20 | English has been added to code  |
+| v1.0.0  | 2025-10-03 | The code that converts seconds to minutes has been created  |
 
 ---
 
