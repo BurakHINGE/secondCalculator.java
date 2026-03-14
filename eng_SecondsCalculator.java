@@ -17,6 +17,11 @@ public class eng_SecondsCalculator {
 
             System.out.print((enteredSeconds == 1) ? enteredSeconds + " second is equal to: " : enteredSeconds + " seconds are equal to: ");
 
+            if (enteredSeconds == 0) {
+                System.out.print("0 seconds");
+                System.out.println();
+                continue;
+            }
             if (hours > 0) {
                 System.out.print(hours + " " + ((hours == 1) ? "hour" : "hours") + " ");
             }
@@ -25,9 +30,6 @@ public class eng_SecondsCalculator {
             }
             if (remainingSeconds > 0) {
                 System.out.print(remainingSeconds + " " + ((remainingSeconds == 1) ? "second" : "seconds") + " ");
-            }
-            if (enteredSeconds == 0) {
-                System.out.print(enteredSeconds + " seconds");
             }
 
             System.out.println();
