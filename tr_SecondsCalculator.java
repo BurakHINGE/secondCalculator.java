@@ -16,7 +16,12 @@ public class tr_SecondsCalculator {
             int kalanSaniye = dakikadanKalanSaniye;
 
             System.out.print(girilenSaniye + " saniye: ");
-            
+
+            if (girilenSaniye == 0) {
+                System.out.print("0 saniye ediyor.");
+                System.out.println();
+                continue;
+            }
             if (saat > 0) {
                 System.out.print(saat + " saat ");
             }
@@ -25,9 +30,6 @@ public class tr_SecondsCalculator {
             }
             if (kalanSaniye > 0) {
                 System.out.print(kalanSaniye + " saniye ");
-            }
-            if (girilenSaniye == 0) {
-                System.out.print("0 saniye ");
             }
 
             System.out.print("ediyor.");
